@@ -6,7 +6,7 @@ import './../styles/App.css';
 const App = () => {
   const [count,setCount]=useState(0);
     const Onclick=()=>{
-      setCount(value+1);
+      setCount(count+1);
     }
   return (
     <div>
