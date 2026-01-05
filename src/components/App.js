@@ -2,6 +2,7 @@
 
 import React from "react";
 import './../styles/App.css';
+import {useSate} from "react"
 
 const App = () => {
   const [count,setCount]=useState(0);
@@ -13,7 +14,7 @@ const App = () => {
         {/* Do not remove the main div */}
     
     
-    <p>Button clicked {count} times</p>
+    <p>Button clicked{count}times</p>
     <button onClick={Onclick}>Click me</button>
     </div>
   )
